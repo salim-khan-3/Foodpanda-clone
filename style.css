@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --pink:#be2edd;
+    --white:#f5f6fa;
+    --gray:#e5e9ec;
+    --black:#2c3e50;
+  }
+body {
+    font-family: "Roboto", serif;
+    max-width: 1900px;
+    /* height: 6000px; */
+    margin: 0 auto;
+}
+/* start editing header main navigation part  */
+.for-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Login-signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.btn-one button p{
+    padding: 9px 31px;
+    font-size: 22px;
+    
+}
+.btn-one button {
+    border-radius:15px ;
+    border: 1px solid black;
+    background-color: var(--white);
+} 
+.language {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    gap: 8px;
+    padding: 14px 32px;
+    background-color: var(--white);;
+}
+.language:hover{
+    background-color: rgb(238, 232, 232);
+}
+.for-login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigation {
+    width: 1440px;
+    height: 64px;
+}
+.foodpanda-logo img {
+    width: 150.67px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main-btn button p{ 
+    color: var(--white);
+    background-color: var(--pink);
+    padding: 10px 33px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+.main-btn button {
+    border-radius: 15px;
+}
+.main-btn button {
+    border: none;
+}
+.last-cart-icon {
+    padding: 24px 24px;
+}
+.last-cart-icon:hover {
+    border-radius: 50%;
+    padding: 24px 24px;
+    background-color: var(--gray);
+}
+/* end editing header main navigation part  */
+
+/* start foodpanda hero section */
+/* .main-section-area {
+    height: 5000px;
+} */
+.hero-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--gray);
+}
+.right-hero-section {
+    width: 50%;
+    
+}
+.left-hero-section {
+    margin-left: 250px;
+}
+.foodpanda-img img {
+    width: 100%;
+}
+.located-me {
+    display: flex;
+    align-items: center;
+}
+.input {
+     position: relative; 
+}
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+    right: -250px;
+}
+.location i {
+    color: var(--pink);
+}
+.location p:hover{
+    color: var(--pink);
+}
+.input input {
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.input-section-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 680px;
+    height: 70px;
+    background-color: var(--white);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.find-out button {
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+    color: var(--white);
+    font-size: 22px;
+    background-color:var(--pink);
+    border: none;
+}
+/* happy ending foodpanda hero section */
+
+/* start editing hero section part  */
+.main-vandor img{
+    width: 100%;
+   
+}
+.cooked-vandor {
+    width: 100%;
+    height: 500px;
+    background-color: var(--gray);
+}
+.main-vandor img{
+    top: -250px;
+}
+.second-hero-section {
+    margin-top: 100px;
+}
+.prepare-food h1 {
+    margin-left: 250px;
+}
+.cooked-vandor-list {
+    margin-top: 50px;
+    position: relative;
+}
+.rasturant {
+    width: 644px;
+    height: 344px;
+    background-color: var(--white);
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    padding: 50px 20px;
+    box-shadow: 5px 5px 7px black;
+    border-radius: 20px;
+}
+.foodpanda-shop p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.foodpanda-shop-btn button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: var(--pink);
+    border-radius: 15px;
+    border: none;
+}
+.foodpanda-shop-btn button p a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+/* end editing hero section part  */
+
+
+
+/* more city service location start*/
+.more-city-service {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: red; */
+}
+.city-service {
+    width: 74%;
+    /* height: 5000px; */
+     
+    margin: 0px auto;
+    /* background-color: #be2edd; */
+}
+ .mane-more-city h1 {
+    padding-top: 300px;
+}
+.main-zilla-part, .second-main-part, .third-main-part, .four-main-part, .five-main-part, .six-main-part, .seven-main-part,
+.eight-main-part, .nive-main-part, .ten-main-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-zilla-part {
+    margin-top: 20px;
+}
+.main-zilla-one {
+    position: relative;
+}
+.f-p-one p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    background-color: var(--gray);
+    color: black;
+    border-radius: 15px;
+}
+.f-p-one p a {
+    text-decoration: none;
+    color: var(--black);
+}
+.img-one img {
+    width:340px;
+    height: 340px;
+    border-radius: 15px;
+}
+.second-main-part, .third-main-part, .four-main-part, .five-main-part, .six-main-part,
+.seven-main-part, .eight-main-part, .nive-main-part, .ten-main-part {
+    margin-top: 10px;
+}
+/* more city service location end */
+
+/* put us in your pocket start */
+.scener-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+    border-radius: 20px;
+    background-color: var(--pink);
+}
+ .app-one  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: var(--black);
+    /* width: 170px; */
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.three-apps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 25px;
+}
+.main-scaner-img-part{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+    /* justify-content: center; */
+}
+.download h2 {
+    color: var(--white);
+}
+.span-only p {
+    color: var(--white);
+}
+.app-store-para  h4 {
+    color: var(--white);
+}
+.app-store-para  p {
+    color: var(--white);
+}
+.app-store i {
+    font-size: 40px;
+    color: var(--white);
+}
+.scener-part {
+    padding-left: 50px;
+}
+.put-us-container {
+   margin: 0 auto;
+   width: 74.5%;
+   margin-top: 150px;
+}
+.groceries-one {
+   width: 90px;
+   border: 2px solid black;
+}
+.scan img {
+    width: 86px;
+    height: 86px;
+}
+.mobile-with-mere-food img {
+    width: 700px;
+}
+.office-timr-out {
+    width: 100%;
+    height: 500px;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+.corporate-img img {
+    /* position: absolute; */
+    top: -280px;
+    width: 100%;
+}
+.lunch-time {
+    margin-top: 100px;
+}
+.office-time h2 {
+    margin-left:250px ;
+}
+.foodpanda-business {
+    width: 600px;
+    height: 200px;
+    background-color: var(--white);
+    box-shadow: 2px 2px 5px black;
+    top: 400px;
+    position: absolute;
+    padding: 20px;
+    left: 250px;
+    border-radius: 20px;
+    
+}
+.foodpanda-business p {
+    margin-top: 10px;
+}
+.corporate-img {
+    position: relative;
+}
+.pre-fdp {
+    position: relative;
+}
+.order-food {
+    width: 74.5%;
+    margin: 250px auto;
+}
+.order-para p {
+    margin-top: 15px;
+}
+hr{
+    margin-top: 100px;
+}
+/* put us in your pocket end */
+
+/* start editing navigation manu  */
+.footer-content {
+    width: 74.5%;
+    margin: -200px auto;
+}
+.footer-navigation ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-navigation ul li {
+    list-style: none;
+}
+.f-1-foodpanda {
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img-one img {
+    transition: 0.5s;
+}
+.img-one:hover img {
+    transform: scale(1.2);
+    
+}
+
+.footer-navigation ul a{
+    color:var(--black);
+    padding: 5px 20px;
+    border-right: 1px solid black;
+}
+.red-alert {
+    margin-top: 30px;
+}
+.main-footer-content-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main-footer-content-div ul li{
+    list-style: none;
+    
+}
+.main-footer-content-div ul li a{
+    color: var(--black);
+    text-decoration-color: aqua;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    animation: slide-in 1s linear ;
+    /* transform: scale(2); */
+}
+.main-footer-content-div li:hover a{
+    animation: slide-in 1s ease-in-out forwards;
+    text-decoration-color:red;
+    text-decoration-line: inherit;
+}
+@keyframes slide-in {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10%;
+
+    }
+  }
+
+ 
+.last-footer-foodpanda-logo, .just-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+.just-right-social {
+    display: flex;
+    gap: 20px;
+}
+.scener-container {
+    margin-top: 20px;
+}
+.footer-two ul li {
+    margin-top: 10px;
+}
+.footer-three ul li {
+    margin-top: 10px;
+}
+.footer-four ul li {
+    margin-top: 10px;
+}
+/* end editing navigation manu  */
+

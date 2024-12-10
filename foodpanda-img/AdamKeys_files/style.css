@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk' ;
+}
+
+body{
+    background-color: #151515;
+}
+.name{
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+    letter-spacing: -0,444444px;
+    position: absolute;
+    top: 39px;
+    left: 165px;
+}
+.oval{
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    left: -100px;
+    top: 133px;
+    opacity: 25%;
+}
+.title{
+    font-weight: 700;
+    height: 88px;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 165px;
+}
+
+.line{
+    border: 0.2px solid #4EE1A0;
+    background-color:  #4EE1A0;
+    width: 492px;
+    height: 6px;
+    position: absolute;
+    top: 373px;
+    left: 238px;
+}
+
+.container{
+    position: absolute;
+    right: 100px;
+    width: 445px;
+    height: 720px;
+    background-color: #242424;
+}
+
+.img{
+    position: absolute;
+    bottom: 0;
+    width: 444px;
+   
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 180px;
+}
+
+.text{
+    width: 445px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9D9D9;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    top: 430px;
+    left: 165px;
+}
+
+.contactme{
+
+    position: absolute;
+    top: 588px;
+    left: 165px;
+}
+
+.text2{
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2.28571px;
+    color: white;
+}
+
+span{
+    border: 0.2px solid #4EE1A0;
+    background-color:  #4EE1A0;
+    width: 120px;
+    height: 2px;
+    position: absolute;
+
+}
+
+.line2{
+    border: 0px;
+    width: 1110px;
+    position: absolute;
+    height: 1px;
+    left: 165px;
+    top:824px;
+    background-color: white;
+}
+
+.frontend{
+    display: flex;
+    position: absolute;
+    top: 900px;
+    left: 165px;
+}
+
+.list3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    color: white;
+}
+
+.list4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9D9D9;
+}
+
+.frontend2{
+    display: flex;
+    position: absolute;
+    top: 1050px;
+    left: 165px;
+}
+
+.rightoval{
+    position: absolute;
+    right: 0px;
+    top: 1077px;
+    opacity: 0.25;
+    mix-blend-mode: normal;
+}
+
+.project{
+    position: absolute;
+    top: 1280px;
+    left: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    color: white;
+}
+
+.contactme2{
+    position: absolute;
+    top: 1310px;
+    right: 165px;
+}
+
+
+
+.portfolio{
+    display: flex;
+    position: absolute;
+    top: 1420px;
+    left: 165px;
+}
+
+.contactform{
+    width: 1440px;
+    height: 675px;
+    top: 3150px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    border: 0;
+    background-color: #242424;
+    display: flex;
+}
+
+.contacttitle{
+    font-weight: 700;
+    height: 88px;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    color: white;
+    position: absolute;
+    left: 165px;
+    top: 100px;
+}
+.contacttext{
+    width: 445px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9D9D9;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    top: 230px;
+    left: 165px;
+}
+
+.ovalfooter{
+    position: absolute;
+    left: -100px;
+    top: 370px;
+}
+
+.message{
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.222222px;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+}
+.contactline{
+    border: 0px;
+    background-color: white;
+    height: 1px;
+    width: 445px;
+}
+
+.contactme3{
+    position: absolute;
+    top: 420px;
+    right: 144px;
+}
+
+.text3{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2.28571px;
+    color: white;
+}
+.border2{
+    width: 144px;
+    position: absolute;
+    top: 30px;
+}
+
+.footerline{
+    width: 1110px;
+    height: 1px;
+    border: 0;
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    left: 165px;
+}
+
+.footername{
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+    letter-spacing: -0,444444px;
+    position: absolute;
+    left: 165px;
+    top: 580px;
+}
